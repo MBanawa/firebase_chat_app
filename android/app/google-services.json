@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "450629669859",
+    "project_id": "fir-chat-e682d",
+    "storage_bucket": "fir-chat-e682d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450629669859:android:a9b9d64efd101a467786d6",
+        "android_client_info": {
+          "package_name": "com.banawa.firebase_chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450629669859-675ue0354005nnhqbggrf9r3pn731k37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUIUPpqFg_Z5py0drQ05qI2-O8_17B4_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450629669859-675ue0354005nnhqbggrf9r3pn731k37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
