@@ -1,4 +1,4 @@
 # firebase_chat_app
 
-Firebase, Image Upload, Push Notifications - Chat App
+Firebase chat app with Image Upload and Push Notifications
 
