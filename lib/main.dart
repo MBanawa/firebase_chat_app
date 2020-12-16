@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
             theme: ThemeData(
               primarySwatch: Colors.teal,
               backgroundColor: Colors.teal,
-              accentColor: Colors.blue,
+              accentColor: Colors.teal[700],
               accentColorBrightness: Brightness.dark,
               buttonTheme: ButtonTheme.of(context).copyWith(
                 buttonColor: Colors.orange,
