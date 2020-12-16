@@ -25,19 +25,25 @@ class MessageBubble extends StatelessWidget {
             ),
           ),
           width: MediaQuery.of(context).size.width / 1.4,
-          padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 16.0),
-          margin: const EdgeInsets.symmetric(vertical: 4.0, horizontal: 8.0),
+          padding: const EdgeInsets.symmetric(vertical: 15.0, horizontal: 16.0),
+          margin: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 8.0),
           child: Column(
             crossAxisAlignment:
                 isMe ? CrossAxisAlignment.end : CrossAxisAlignment.start,
             children: [
               Text(
                 username,
-                style: TextStyle(fontWeight: FontWeight.bold),
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: isMe
+                      ? Colors.black
+                      : Theme.of(context).accentTextTheme.headline6.color,
+                ),
               ),
               Text(
                 message,
                 style: TextStyle(
+                  fontSize: 16.0,
                   color: isMe
                       ? Colors.black
                       : Theme.of(context).accentTextTheme.headline6.color,
