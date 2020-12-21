@@ -77,6 +77,9 @@ class _AuthFormState extends State<AuthForm> {
                   if (!_isLogin) UserImagePicker(_pickedImage),
                   TextFormField(
                     key: ValueKey('email'),
+                    autocorrect: false,
+                    textCapitalization: TextCapitalization.none,
+                    enableSuggestions: false,
                     onSaved: (newValue) {
                       _userEmail = newValue;
                     },
@@ -92,6 +95,9 @@ class _AuthFormState extends State<AuthForm> {
                   if (!_isLogin)
                     TextFormField(
                       key: ValueKey('username'),
+                      autocorrect: true,
+                      textCapitalization: TextCapitalization.words,
+                      enableSuggestions: false,
                       onSaved: (newValue) {
                         _userName = newValue;
                       },
@@ -102,7 +108,6 @@ class _AuthFormState extends State<AuthForm> {
                         return null;
                       },
                       decoration: InputDecoration(labelText: 'Username'),
-                      enableSuggestions: false,
                     ),
                   TextFormField(
                     key: ValueKey('password'),
